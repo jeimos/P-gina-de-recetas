@@ -1,0 +1,207 @@
+@font-face{
+    font-family: 'YoungSerif-Regular','Outfit-VariableFont_wght';
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family:'YoungSerif-Regular';
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    background-color: rgb(241, 234, 231);
+}
+
+body{
+    background-color: white;
+    max-width: 70em;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+
+.header{
+    max-width: 60.5em;
+    max-height: 50em;
+
+}
+
+.title{
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size:4em;
+    font-weight: bold;
+   
+}
+
+.title-parrafo{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 30px;
+   font-size: 20px;
+}
+
+.image-header{
+    display: block;
+    width: 1040px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.prepation-time{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(228, 210, 213);
+    max-width: 65em;
+    max-height: 30em;
+    margin-left: 40px;
+    border-radius:10px;
+}
+.preparacion{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(99, 32, 38);
+   
+
+}
+.ul-preparacion{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 3rem;
+    font-size: 1.2em;
+}    
+.title__ingrdientes{
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: brown;
+}
+hr {
+    height: 1px;
+    background-color: black;
+    max-width: 65em;
+  }
+.ingredientes{
+    padding: 30px;
+}
+.ingrediente-lista{
+    margin-left: 70px;
+    line-height: 2rem;
+    font-size: 1.2em;
+}
+.title__instruciones{
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: brown;
+}
+.instruciones-lista{
+    margin-left: 70px;
+    line-height: 2rem;
+    font-size: 1.2em;    
+}
+.instruciones{
+    padding: 30px;
+    max-width: 65em;
+}
+li{
+   
+    color: brown;
+}
+li span{
+    color: black;
+}
+
+.title__nutricion{
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: brown;
+}
+.nutricion-parrafo{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 30px;
+   font-size: 20px;
+}
+.nutricion{
+    padding: 30px;
+   
+}
+.calorias{
+    margin-top: 10px;
+    height: 50px;    
+    padding: 5px;
+    margin-left: 3rem;
+   justify-content: center;
+   
+}
+.carbohidratos{
+    height: 50px;    
+    padding: 5px;
+    margin-left: 3rem;
+    justify-content: center;
+   
+}
+.proteinas{
+    height: 50px;    
+    padding: 5px;
+    margin-left: 3rem;
+    justify-content: center;
+   
+}
+.grasa{
+    height: 50px;    
+    padding: 5px;
+    margin-left: 3rem;
+    justify-content: center;   
+}
+
+
+
+.texto{
+    margin-left: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.valor{
+    margin-left: 20em;
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: brown;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+
+    body{
+        max-width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 40px;
+        margin-left: 250px;
+    }
+    .image-header{
+        
+      max-width:300px ; 
+    }
+}
+
+
